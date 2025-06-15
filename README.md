@@ -1,29 +1,28 @@
-# E-Commerce Customer Spending Prediction
+# Mall Customer Segmentation
 
-This project uses linear regression to predict how much a customer will spend yearly on an e-commerce platform, based on their app usage, website interaction, and membership history.
+This project segments shopping mall customers using K-Means clustering to uncover patterns in spending behavior and income levels. The goal is to help the business tailor personalized marketing strategies for each customer group.
 
 ## Dataset
-- CSV file: `Ecommerce Customers.csv`  
-  (Contains customer behavior metrics and yearly spending)
+- CSV file: `Mall_Customers.csv` (includes demographics and spending behavior)
 
 ## Tools Used
 - Python (Pandas, Matplotlib, Seaborn, scikit-learn)
 - Jupyter Notebook
 
 ## Objectives
-- Identify which customer behavior factors influence spending the most
-- Build a regression model to predict yearly customer spending
-- Evaluate model performance and interpret coefficients
+- Segment customers based on income and spending behavior
+- Understand key differences across clusters
+- Support targeted marketing and product strategies
 
 ## Key Insights
-- **Length of Membership** is the strongest predictor of yearly spending — loyal customers tend to spend more.
-- Time spent on the **Mobile App** has a higher impact on spending than time on the website, suggesting the app is more effective for driving sales.
-- The model achieved a strong **R² score**, indicating a good fit for the data.
-- Residuals are normally distributed, confirming the linear regression model is appropriate.
+- Customers with **high income but low spending** represent untapped potential — ideal for premium engagement campaigns.
+- The **high income & high spending** segment is the most valuable and should be prioritized with VIP services.
+- **Low income but high spending** customers show strong brand interest — suitable for loyalty and discount-based strategies.
+- Distinct clusters reveal opportunities for **cross-selling**, **personalization**, and **customer retention programs**.
 
 ## How to Run
-1. Place `Ecommerce Customers.csv` in your working directory
-2. Open and run `Customer_Spending_Prediction.ipynb`
+1. Place `Mall_Customers (1).csv` in your working directory
+2. Open and run `Mall Customer Segmentation with K-Means Clustering.ipynb`
 
 ## Status
-Finished
+Finished 
