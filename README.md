@@ -26,4 +26,4 @@ This project uses linear regression to predict how much a customer will spend ye
 2. Open and run `Customer_Spending_Prediction.ipynb`
 
 ## Status
-Finished ✅
+Finished
