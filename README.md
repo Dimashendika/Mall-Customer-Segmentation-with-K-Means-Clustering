@@ -1,4 +1,4 @@
-# 🛍️ E-Commerce Customer Spending Prediction
+# E-Commerce Customer Spending Prediction
 
 This project uses linear regression to predict how much a customer will spend yearly on an e-commerce platform, based on their app usage, website interaction, and membership history.
 
